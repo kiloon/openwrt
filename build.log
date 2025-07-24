@@ -631,3 +631,851 @@ OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -
 [271/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_ppmd7.c.o
 [272/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_ar.c.o
 /usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo mu_divappr_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o mu_divappr_q.lo mu_divappr_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_mu_divappr_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c mu_divappr_q.c -o mu_divappr_q.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo mu_div_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o mu_div_q.lo mu_div_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_mu_div_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c mu_div_q.c -o mu_div_q.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo bdiv_q_1 | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bdiv_q_1.lo bdiv_q_1.c
+[273/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_mtree.c.o
+[274/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_cpio.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_bdiv_q_1 -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bdiv_q_1.c -o bdiv_q_1.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sbpi1_bdiv_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sbpi1_bdiv_q.lo sbpi1_bdiv_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sbpi1_bdiv_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sbpi1_bdiv_q.c -o sbpi1_bdiv_q.o
+[275/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_iso9660.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-scan-skel-c.o `test -f 'src/scan-skel-c.c' || echo './'`src/scan-skel-c.c
+[276/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_lha.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sbpi1_bdiv_r | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sbpi1_bdiv_r.lo sbpi1_bdiv_r.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sbpi1_bdiv_r -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sbpi1_bdiv_r.c -o sbpi1_bdiv_r.o
+[277/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_cab.c.o
+[278/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_raw.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo dcpi1_bdiv_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o dcpi1_bdiv_q.lo dcpi1_bdiv_q.c
+[279/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_xar.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_dcpi1_bdiv_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c dcpi1_bdiv_q.c -o dcpi1_bdiv_q.o
+[280/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_7zip.c.o
+[281/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_warc.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo dcpi1_bdiv_qr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o dcpi1_bdiv_qr.lo dcpi1_bdiv_qr.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-state.o `test -f 'src/state.c' || echo './'`src/state.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_dcpi1_bdiv_qr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c dcpi1_bdiv_qr.c -o dcpi1_bdiv_qr.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-state-item.o `test -f 'src/state-item.c' || echo './'`src/state-item.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo mu_bdiv_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o mu_bdiv_q.lo mu_bdiv_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_mu_bdiv_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c mu_bdiv_q.c -o mu_bdiv_q.o
+[282/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string_sprintf.c.o
+[283/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_util.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo mu_bdiv_qr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o mu_bdiv_qr.lo mu_bdiv_qr.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_mu_bdiv_qr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c mu_bdiv_qr.c -o mu_bdiv_qr.o
+[284/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_version_details.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo bdiv_q | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bdiv_q.lo bdiv_q.c
+[285/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_virtual.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_bdiv_q -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bdiv_q.c -o bdiv_q.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-strversion.o `test -f 'src/strversion.c' || echo './'`src/strversion.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo bdiv_qr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bdiv_qr.lo bdiv_qr.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-symlist.o `test -f 'src/symlist.c' || echo './'`src/symlist.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_bdiv_qr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bdiv_qr.c -o bdiv_qr.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-symtab.o `test -f 'src/symtab.c' || echo './'`src/symtab.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo broot | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o broot.lo broot.c
+[286/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_tar.c.o
+[287/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_broot -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c broot.c -o broot.o
+[288/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_rar.c.o
+[289/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_zip.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo brootinv | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o brootinv.lo brootinv.c
+[290/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_fd.c.o
+[291/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_set_standard_lookup.c.o
+[292/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_file.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_brootinv -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c brootinv.c -o brootinv.o
+[293/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string.c.o
+[294/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter.c.o
+[295/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_memory.c.o
+[296/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_rar5.c.o
+[297/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_filename.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo bsqrt | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bsqrt.lo bsqrt.c
+[298/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_by_name.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-tables.o `test -f 'src/tables.c' || echo './'`src/tables.c
+[299/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_b64encode.c.o
+[300/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_grzip.c.o
+[301/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_bzip2.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_bsqrt -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bsqrt.c -o bsqrt.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo divexact | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divexact.lo divexact.c
+[302/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_compress.c.o
+[303/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_gzip.c.o
+[304/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_lzop.c.o
+[305/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_lrzip.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_divexact -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divexact.c -o divexact.o
+[306/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_lz4.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo bdiv_dbm1c | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bdiv_dbm1c.lo bdiv_dbm1c.c
+[307/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format.c.o
+[308/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_uuencode.c.o
+[309/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_program.c.o
+[310/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_xz.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_bdiv_dbm1c -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bdiv_dbm1c.c -o bdiv_dbm1c.o
+[311/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_by_name.c.o
+[312/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_posix.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo redc_1 | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o redc_1.lo redc_1.c
+[313/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_zstd.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DINSTALLDIR=\"/workspace/staging_dir/host/bin\" -I/workspace/staging_dir/host/include   -O2 -I/workspace/staging_dir/host/include -c -o src/bison-uniqstr.o `test -f 'src/uniqstr.c' || echo './'`src/uniqstr.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_redc_1 -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c redc_1.c -o redc_1.o
+[314/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_filter_by_ext.c.o
+Module list with included dependencies (indented):
+    absolute-header
+    alignasof
+    alignof
+    alloca
+    alloca-opt
+  argp
+    assert-h
+    assure
+    at-internal
+    attribute
+    basename-lgpl
+    bitrotate
+    btoc32
+    btowc
+    builtin-expect
+    c32_apply_type_test
+    c32_get_type_test
+    c32isalnum
+    c32isalpha
+    c32isblank
+    c32iscntrl
+    c32isdigit
+    c32isgraph
+    c32islower
+    c32isprint
+    c32ispunct
+    c32isspace
+    c32isupper
+    c32isxdigit
+    c32tolower
+    c99
+    calloc-posix
+    chdir
+    chdir-long
+    cloexec
+    close
+    closedir
+    ctype
+    cycle-check
+    d-ino
+    d-type
+    dev-ino
+    dirent
+    dirfd
+    double-slash-root
+    dup
+    dup2
+    errno
+    error
+    error-h
+    exitfail
+    extensions
+    extern-inline
+  fallocate-posix
+    fchdir
+    fcntl
+    fcntl-h
+    fcntl-safer
+    fd-hook
+    fd-safer-flag
+    fdopendir
+    filename
+    filenamecat-lgpl
+    flexmember
+    float
+    fnmatch
+  fnmatch-gnu
+    fnmatch-h
+    free-posix
+    fstat
+    ftruncate
+  fts
+    gen-header
+    getcwd-lgpl
+    getdtablesize
+    getopt-gnu
+    getopt-posix
+    getprogname
+    gettext-h
+    hard-locale
+    hash
+    i-ring
+    idx
+    include_next
+    inline
+    intprops
+    inttypes-incomplete
+    isblank
+    iswblank
+    iswctype
+    iswdigit
+    iswpunct
+    iswxdigit
+    largefile
+    libc-config
+    limits-h
+    localcharset
+    locale
+    lseek
+    lstat
+    malloc-gnu
+    malloc-posix
+    malloca
+    mbrtoc32
+    mbrtowc
+    mbsinit
+    mbsrtoc32s
+    mbsrtowcs
+    mbszero
+    mbtowc
+    memchr
+    mempcpy
+    memrchr
+    msvc-inval
+    msvc-nothrow
+    multiarch
+    nocrash
+  obstack
+    open
+    openat
+    openat-die
+    openat-h
+    openat-safer
+    opendir
+    opendirat
+    pathmax
+    pipe-posix
+    pread
+  progname
+    pwrite
+    raise
+    rawmemchr
+    read
+    readdir
+    realloc-posix
+    same-inode
+    save-cwd
+    search
+    setlocale-null
+    signal-h
+    size_max
+    sleep
+    snippet/_Noreturn
+    snippet/arg-nonnull
+    snippet/c++defs
+    snippet/warn-on-use
+    ssize_t
+    stat
+    stat-time
+    std-gnu11
+    stdbool
+    stdckdint
+    stddef
+    stdint
+    stdio
+    stdlib
+    strcase
+  strchrnul
+    strdup-posix
+    streq
+    strerror
+    strerror-override
+    string
+    strings
+    strndup
+    strnlen
+    strnlen1
+    sys_stat
+    sys_types
+    sysexits
+    time-h
+  tsearch
+    uchar
+    unicase/base
+    unicase/tolower
+    unictype/base
+    unictype/ctype-alnum
+    unictype/ctype-alpha
+    unictype/ctype-blank
+    unictype/ctype-cntrl
+    unictype/ctype-digit
+    unictype/ctype-graph
+    unictype/ctype-lower
+    unictype/ctype-print
+    unictype/ctype-punct
+    unictype/ctype-space
+    unictype/ctype-upper
+    unictype/ctype-xdigit
+    uninorm/base
+    unistd
+    unistd-safer
+    unistr/base
+    unistr/u32-chr
+    unistr/u32-cpy
+    unistr/u32-pcpy
+    unistr/u32-strcat
+    unistr/u32-strlen
+    unitypes
+    vararrays
+    vasnprintf
+    verify
+    vsnprintf
+    wchar
+    wctype
+    wctype-h
+    wmemchr
+    wmempcpy
+    write
+    xalloc-oversized
+    xsize
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo redc_2 | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o redc_2.lo redc_2.c
+[315/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio_newc.c.o
+[316/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio_binary.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-allocator.o `test -f 'lib/allocator.c' || echo './'`lib/allocator.c
+[317/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ar.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-areadlink.o `test -f 'lib/areadlink.c' || echo './'`lib/areadlink.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_redc_2 -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c redc_2.c -o redc_2.o
+[318/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio_odc.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-argmatch.o `test -f 'lib/argmatch.c' || echo './'`lib/argmatch.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo redc_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o redc_n.lo redc_n.c
+[319/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_raw.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_redc_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c redc_n.c -o redc_n.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo powm | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o powm.lo powm.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-gl_array_list.o `test -f 'lib/gl_array_list.c' || echo './'`lib/gl_array_list.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_powm -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c powm.c -o powm.o
+[320/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_gnutar.c.o
+[321/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_7zip.c.o
+[322/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_shar.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-basename-lgpl.o `test -f 'lib/basename-lgpl.c' || echo './'`lib/basename-lgpl.c
+[323/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ustar.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-binary-io.o `test -f 'lib/binary-io.c' || echo './'`lib/binary-io.c
+[324/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_xar.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-bitrotate.o `test -f 'lib/bitrotate.c' || echo './'`lib/bitrotate.c
+[325/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_warc.c.o
+[326/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_mtree.c.o
+[327/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_v7tar.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo powlo | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o powlo.lo powlo.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/libbison_a-bitset.o `test -f 'lib/bitset.c' || echo './'`lib/bitset.c
+[328/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_options.c.o
+[329/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_passphrase.c.o
+[330/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/xxhash.c.o
+[331/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_pax.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_powlo -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c powlo.c -o powlo.o
+[332/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/filter_fork_posix.c.o
+[333/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_blake2sp_ref.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/bitset/libbison_a-array.o `test -f 'lib/bitset/array.c' || echo './'`lib/bitset/array.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_powm | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_powm.lo sec_powm.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_powm -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_powm.c -o sec_powm.o
+[334/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.o
+[335/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_zip.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_mul | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_mul.lo sec_mul.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/bitset/libbison_a-stats.o `test -f 'lib/bitset/stats.c' || echo './'`lib/bitset/stats.c
+[336/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/idna.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_mul -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_mul.c -o sec_mul.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_sqr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_sqr.lo sec_sqr.c
+[337/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/strscpy.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_sqr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_sqr.c -o sec_sqr.o
+[338/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/strtok.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_div_qr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_div_qr.lo sec_div_qr.c
+[339/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_div_qr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_div_qr.c -o sec_div_qr.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/bitset/libbison_a-table.o `test -f 'lib/bitset/table.c' || echo './'`lib/bitset/table.c
+[340/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_div_r | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_div_r.lo sec_div_r.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_div_r -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_div_r.c -o sec_div_r.o
+[341/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/timer.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_pi1_div_qr | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_pi1_div_qr.lo sec_pi1_div_qr.c
+[342/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_pi1_div_qr -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_pi1_div_qr.c -o sec_pi1_div_qr.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_pi1_div_r | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_pi1_div_r.lo sec_pi1_div_r.c
+[343/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_pi1_div_r -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_pi1_div_r.c -o sec_pi1_div_r.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_add_1 | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_add_1.lo sec_add_1.c
+[344/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_add_1 -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_add_1.c -o sec_add_1.o
+[345/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_sub_1 | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_sub_1.lo sec_sub_1.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_sub_1 -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_sub_1.c -o sec_sub_1.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/bitset/libbison_a-list.o `test -f 'lib/bitset/list.c' || echo './'`lib/bitset/list.c
+[346/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_invert | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_invert.lo sec_invert.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_invert -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_invert.c -o sec_invert.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo trialdiv | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o trialdiv.lo trialdiv.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_trialdiv -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c trialdiv.c -o trialdiv.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo remove | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o remove.lo remove.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_remove -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c remove.c -o remove.o
+[347/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo and_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o and_n.lo and_n.c
+[348/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_and_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c and_n.c -o and_n.o
+[349/897] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_iso9660.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo nand_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o nand_n.lo nand_n.c
+[350/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/bitset/libbison_a-vector.o `test -f 'lib/bitset/vector.c' || echo './'`lib/bitset/vector.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_nand_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c nand_n.c -o nand_n.o
+[351/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.o
+[352/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo ior_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o ior_n.lo ior_n.c
+[353/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_ior_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c ior_n.c -o ior_n.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo iorn_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o iorn_n.lo iorn_n.c
+[354/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_iorn_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c iorn_n.c -o iorn_n.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo nior_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o nior_n.lo nior_n.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/glthread/libbison_a-lock.o `test -f 'lib/glthread/lock.c' || echo './'`lib/glthread/lock.c
+[355/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_nior_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c nior_n.c -o nior_n.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/malloc/libbison_a-scratch_buffer_dupfree.o `test -f 'lib/malloc/scratch_buffer_dupfree.c' || echo './'`lib/malloc/scratch_buffer_dupfree.c
+[356/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo xor_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o xor_n.lo xor_n.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/malloc/libbison_a-scratch_buffer_grow.o `test -f 'lib/malloc/scratch_buffer_grow.c' || echo './'`lib/malloc/scratch_buffer_grow.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_xor_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c xor_n.c -o xor_n.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/malloc/libbison_a-scratch_buffer_grow_preserve.o `test -f 'lib/malloc/scratch_buffer_grow_preserve.c' || echo './'`lib/malloc/scratch_buffer_grow_preserve.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/malloc/libbison_a-scratch_buffer_set_array_size.o `test -f 'lib/malloc/scratch_buffer_set_array_size.c' || echo './'`lib/malloc/scratch_buffer_set_array_size.c
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo xnor_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o xnor_n.lo xnor_n.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/unistr/libbison_a-u8-mbtoucr.o `test -f 'lib/unistr/u8-mbtoucr.c' || echo './'`lib/unistr/u8-mbtoucr.c
+[357/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_xnor_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c xnor_n.c -o xnor_n.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/unistr/libbison_a-u8-uctomb.o `test -f 'lib/unistr/u8-uctomb.c' || echo './'`lib/unistr/u8-uctomb.c
+[358/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo copyi | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o copyi.lo copyi.c
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/unistr/libbison_a-u8-uctomb-aux.o `test -f 'lib/unistr/u8-uctomb-aux.c' || echo './'`lib/unistr/u8-uctomb-aux.c
+[359/897] Building CXX object Utilities/cmjsoncpp/CMakeFiles/cmjsoncpp.dir/src/lib_json/json_writer.cpp.o
+/workspace/staging_dir/host/bin/gcc -DEXEEXT=\"\"   -I. -I./lib -I. -I./lib -DDEFAULT_TEXT_DOMAIN=\"bison-gnulib\" -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o lib/uniwidth/libbison_a-width.o `test -f 'lib/uniwidth/width.c' || echo './'`lib/uniwidth/width.c
+[360/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_copyi -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c copyi.c -o copyi.o
+rm -f lib/liby.a
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo copyd | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o copyd.lo copyd.c
+ar cr lib/liby.a lib/main.o lib/yyerror.o 
+ranlib lib/liby.a
+rm -f lib/libbison.a
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_copyd -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c copyd.c -o copyd.o
+ar cr lib/libbison.a lib/libbison_a-allocator.o lib/libbison_a-areadlink.o lib/libbison_a-argmatch.o lib/libbison_a-gl_array_list.o  lib/libbison_a-basename-lgpl.o lib/libbison_a-binary-io.o lib/libbison_a-bitrotate.o lib/libbison_a-bitset.o lib/bitset/libbison_a-array.o lib/bitset/libbison_a-stats.o lib/bitset/libbison_a-table.o lib/bitset/libbison_a-list.o lib/bitset/libbison_a-vector.o lib/libbison_a-bitsetv.o lib/libbison_a-c-ctype.o lib/libbison_a-c-strcasecmp.o lib/libbison_a-c-strncasecmp.o lib/libbison_a-canonicalize.o lib/libbison_a-careadlinkat.o lib/libbison_a-cloexec.o lib/libbison_a-close-stream.o lib/libbison_a-closeout.o lib/libbison_a-concat-filename.o lib/libbison_a-dirname.o lib/libbison_a-basename.o lib/libbison_a-dirname-lgpl.o lib/libbison_a-stripslash.o lib/libbison_a-execute.o lib/libbison_a-exitfail.o lib/libbison_a-fatal-signal.o  lib/libbison_a-fd-safer-flag.o lib/libbison_a-dup-safer-flag.o lib/libbison_a-file-set.o  lib/libbison_a-findprog-in.o lib/libbison_a-fopen-safer.o lib/libbison_a-fstrcmp.o lib/libbison_a-gethrxtime.o lib/libbison_a-xtime.o lib/libbison_a-getprogname.o lib/libbison_a-gettime.o lib/libbison_a-hard-locale.o lib/libbison_a-hash.o lib/libbison_a-gl_hash_map.o lib/libbison_a-hash-pjw.o lib/libbison_a-hash-triple-simple.o lib/libbison_a-ialloc.o lib/libbison_a-integer_length.o lib/libbison_a-integer_length_l.o lib/libbison_a-gl_linked_list.o lib/libbison_a-gl_list.o lib/libbison_a-localcharset.o lib/glthread/libbison_a-lock.o  lib/libbison_a-gl_map.o lib/libbison_a-math.o lib/libbison_a-mbchar.o lib/libbison_a-mbfile.o lib/libbison_a-mbswidth.o  lib/libbison_a-gl_oset.o lib/libbison_a-pipe2.o lib/libbison_a-pipe2-safer.o lib/libbison_a-printf-frexp.o lib/libbison_a-printf-frexpl.o lib/libbison_a-progname.o lib/libbison_a-quotearg.o lib/libbison_a-gl_rbtree_oset.o lib/libbison_a-gl_rbtreehash_list.o  lib/malloc/libbison_a-scratch_buffer_dupfree.o lib/malloc/libbison_a-scratch_buffer_grow.o lib/malloc/libbison_a-scratch_buffer_grow_preserve.o lib/malloc/libbison_a-scratch_buffer_set_array_size.o lib/libbison_a-setlocale_null.o lib/libbison_a-sig-handler.o lib/libbison_a-spawn-pipe.o  lib/glthread/libbison_a-threadlib.o lib/libbison_a-timespec.o lib/libbison_a-timevar.o lib/glthread/libbison_a-tls.o lib/libbison_a-unicodeio.o lib/libbison_a-unistd.o lib/libbison_a-dup-safer.o lib/libbison_a-fd-safer.o lib/libbison_a-pipe-safer.o lib/unistr/libbison_a-u8-mbtoucr.o lib/unistr/libbison_a-u8-uctomb.o lib/unistr/libbison_a-u8-uctomb-aux.o lib/uniwidth/libbison_a-width.o lib/libbison_a-wait-process.o lib/libbison_a-wctype-h.o lib/libbison_a-xmalloc.o lib/libbison_a-xalloc-die.o lib/libbison_a-xconcat-filename.o lib/libbison_a-xhash.o lib/libbison_a-gl_xlist.o lib/libbison_a-gl_xmap.o lib/libbison_a-xmemdup0.o lib/libbison_a-xreadlink.o lib/libbison_a-xsize.o lib/libbison_a-xstrndup.o lib/libbison_a-get-errno.o lib/libbison_a-path-join.o lib/libbison_a-asnprintf.o lib/libbison_a-asprintf.o lib/libbison_a-fcntl.o lib/libbison_a-fprintf.o lib/libbison_a-fseterr.o lib/libbison_a-mbrtowc.o lib/libbison_a-obstack.o lib/libbison_a-printf.o lib/libbison_a-printf-args.o lib/libbison_a-printf-parse.o lib/libbison_a-readline.o lib/libbison_a-snprintf.o lib/libbison_a-spawn_faction_addchdir.o lib/libbison_a-sprintf.o lib/libbison_a-vasnprintf.o lib/libbison_a-vasprintf.o lib/libbison_a-vfprintf.o lib/libbison_a-vsnprintf.o lib/libbison_a-vsprintf.o
+[361/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo zero | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o zero.lo zero.c
+[362/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/epoll.c.o
+ranlib lib/libbison.a
+[363/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_zero -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c zero.c -o zero.o
+[364/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.o
+/workspace/staging_dir/host/bin/gcc   -O2 -I/workspace/staging_dir/host/include  -L/workspace/staging_dir/host/lib -o src/bison src/bison-AnnotationList.o src/bison-InadequacyList.o src/bison-Sbitset.o src/bison-assoc.o src/bison-closure.o src/bison-complain.o src/bison-conflicts.o src/bison-counterexample.o src/bison-derivation.o src/bison-derives.o src/bison-files.o src/bison-fixits.o src/bison-getargs.o src/bison-glyphs.o src/bison-gram.o src/bison-graphviz.o src/bison-ielr.o src/bison-lalr.o src/bison-location.o src/bison-lr0.o src/bison-lssi.o src/bison-main.o src/bison-muscle-tab.o src/bison-named-ref.o src/bison-nullable.o src/bison-output.o src/bison-parse-gram.o src/bison-parse-simulation.o src/bison-print-graph.o src/bison-print-xml.o src/bison-print.o src/bison-reader.o src/bison-reduce.o src/bison-relation.o src/bison-scan-code-c.o src/bison-scan-gram-c.o src/bison-scan-skel-c.o src/bison-state.o src/bison-state-item.o src/bison-strversion.o src/bison-symlist.o src/bison-symtab.o src/bison-tables.o src/bison-uniqstr.o lib/libbison.a               
+/usr/bin/mkdir -p doc
+LC_ALL=C tests/bison --version >doc/bison.help.tmp
+LC_ALL=C tests/bison --help | \
+  sed -e 's,^Usage: .*/bison \[OPTION\],Usage: bison [OPTION],g' \
+      -e '/translation bugs/d'  >>doc/bison.help.tmp
+./build-aux/move-if-change doc/bison.help.tmp doc/bison.help
+{ test ! -f doc/cross-options.texi || cat doc/cross-options.texi; } >doc/cross-options.texi~
+test ! -f doc/cross-options.texi.tmp || rm -f doc/cross-options.texi.tmp
+/workspace/staging_dir/host/bin/perl ./build-aux/cross-options.pl ./src/scan-gram.l \
+  <./doc/bison.help >doc/cross-options.texi.tmp
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo sec_tabselect | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o sec_tabselect.lo sec_tabselect.c
+diff -u doc/cross-options.texi~ doc/cross-options.texi.tmp || true
+mv doc/cross-options.texi.tmp doc/cross-options.texi
+if /usr/bin/env bash '/workspace/build_dir/host/bison-3.8.2/build-aux/missing' help2man --version >/dev/null 2>&1; then	\
+  /usr/bin/env bash '/workspace/build_dir/host/bison-3.8.2/build-aux/missing' help2man							\
+    --include=./doc/bison.x				\
+    --output=doc/bison.1.tmp tests/bison &&				\
+  { sed 's/^\(\.TH[^"]*"[^"]*"[^"]*\)"[^"]*"/\1/' doc/bison.1     >doc/bison.1a.tmp || true; } &&		\
+    sed 's/^\(\.TH[^"]*"[^"]*"[^"]*\)"[^"]*"/\1/' doc/bison.1.tmp >doc/bison.1b.tmp &&			\
+  if diff doc/bison.1a.tmp doc/bison.1b.tmp >/dev/null 2>&1; then			\
+    touch doc/bison.1;							\
+  else								\
+    mv doc/bison.1.tmp doc/bison.1;						\
+  fi &&								\
+  rm -f doc/bison.1*.tmp;						\
+elif test -d ./.git; then				\
+  echo >&2 "ERROR: doc/bison.1: help2man is needed";			\
+  exit 1;							\
+else								\
+  touch doc/bison.1;							\
+fi
+[365/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.o
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && CDPATH="${ZSH_VERSION+.}:" && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/usr/bin/env bash '/workspace/build_dir/host/bison-3.8.2/build-aux/missing' makeinfo --version) >/dev/null 2>&1; then \
+  for f in doc/bison.info doc/bison.info-[0-9] doc/bison.info-[0-9][0-9] doc/bison.i[0-9] doc/bison.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /usr/bin/env bash '/workspace/build_dir/host/bison-3.8.2/build-aux/missing' makeinfo --no-split --set-customization-variable=SECTION_NAME_IN_TITLE=true --set-customization-variable=AVOID_MENU_REDUNDANCY=true --set-customization-variable=ICONS=true  -I doc -I ./doc \
+ -o doc/bison.info ./doc/bison.texi; \
+then \
+  rc=0; \
+  CDPATH="${ZSH_VERSION+.}:" && cd .; \
+else \
+  rc=$?; \
+  CDPATH="${ZSH_VERSION+.}:" && cd . && \
+  $restore $backupdir/* `echo "./doc/bison.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_sec_tabselect -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c sec_tabselect.c -o sec_tabselect.o
+/workspace/staging_dir/host/bin/perl -pi.bak -0777	\
+  -e 's{(^ --.*\n(?: {10}.*\n)*)}'	\
+  -e '{'				\
+  -e '  $def = $1;'			\
+  -e '  $def =~ s/‘|’//g;'		\
+  -e '  $def;'				\
+  -e '}gem;' ./doc/bison.info
+[366/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.o
+make[6]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+make[5]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+make[4]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+touch /workspace/build_dir/host/bison-3.8.2/.built
+CFLAGS="-O2 -I/workspace/staging_dir/host/include" CPPFLAGS="-I/workspace/staging_dir/host/include" CXXFLAGS="-O2 -I/workspace/staging_dir/host/include" LDFLAGS="-L/workspace/staging_dir/host/lib" make --jobserver-auth=fifo:/tmp/GMfifo213147  -C /workspace/build_dir/host/bison-3.8.2/.   install
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo comb_tables | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o comb_tables.lo comb_tables.c
+[367/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.o
+make[4]: Entering directory '/workspace/build_dir/host/bison-3.8.2'
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_comb_tables -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c comb_tables.c -o comb_tables.o
+[368/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.o
+[369/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.o
+make  install-recursive
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -DOPERATION_`echo add_n_sub_n | sed 's/_$//'` -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o add_n_sub_n.lo add_n_sub_n.c
+make[5]: Entering directory '/workspace/build_dir/host/bison-3.8.2'
+[370/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.o
+[371/897] Building C object Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -DOPERATION_add_n_sub_n -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c add_n_sub_n.c -o add_n_sub_n.o
+Making install in po
+make[6]: Entering directory '/workspace/build_dir/host/bison-3.8.2/po'
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /workspace/staging_dir/host/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /workspace/staging_dir/host/bin/install -c -m 644 ./$file \
+		    /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[6]: Leaving directory '/workspace/build_dir/host/bison-3.8.2/po'
+Making install in runtime-po
+make[6]: Entering directory '/workspace/build_dir/host/bison-3.8.2/runtime-po'
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /workspace/staging_dir/host/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /workspace/staging_dir/host/bin/install -c -m 644 ./$file \
+		    /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[6]: Leaving directory '/workspace/build_dir/host/bison-3.8.2/runtime-po'
+[372/897] Building C object Utilities/cmllpkgc/CMakeFiles/cmllpkgc.dir/llpkgc.c.o
+Making install in gnulib-po
+make[6]: Entering directory '/workspace/build_dir/host/bison-3.8.2/gnulib-po'
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /workspace/staging_dir/host/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /workspace/staging_dir/host/bin/install -c -m 644 ./$file \
+		    /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /workspace/staging_dir/host/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[6]: Leaving directory '/workspace/build_dir/host/bison-3.8.2/gnulib-po'
+Making install in .
+[373/897] Linking CXX static library Utilities/std/libcmstd.a
+[374/897] Linking CXX static library Source/kwsys/libcmsys.a
+make[6]: Entering directory '/workspace/build_dir/host/bison-3.8.2'
+[375/897] Linking C static library Utilities/cmlibrhash/libcmlibrhash.a
+[376/897] Building C object Utilities/cmllpkgc/CMakeFiles/cmllpkgc.dir/llpkgc__internal.c.o
+make[7]: Entering directory '/workspace/build_dir/host/bison-3.8.2'
+[377/897] Linking C static library Utilities/cmllpkgc/libcmllpkgc.a
+/usr/bin/env bash ../libtool  --tag=CC   --mode=link /workspace/staging_dir/host/bin/gcc  -O2 -I/workspace/staging_dir/host/include  -L/workspace/staging_dir/host/lib -o libmpn.la  fib_table.lo mp_bases.lo add.lo add_1.lo add_n.lo sub.lo sub_1.lo sub_n.lo cnd_add_n.lo cnd_sub_n.lo cnd_swap.lo neg.lo com.lo mul_1.lo addmul_1.lo submul_1.lo add_err1_n.lo add_err2_n.lo add_err3_n.lo sub_err1_n.lo sub_err2_n.lo sub_err3_n.lo lshift.lo rshift.lo dive_1.lo diveby3.lo divis.lo divrem.lo divrem_1.lo divrem_2.lo fib2_ui.lo fib2m.lo mod_1.lo mod_34lsub1.lo mode1o.lo pre_divrem_1.lo pre_mod_1.lo dump.lo mod_1_1.lo mod_1_2.lo mod_1_3.lo mod_1_4.lo lshiftc.lo mul.lo mul_fft.lo mul_n.lo sqr.lo mul_basecase.lo sqr_basecase.lo nussbaumer_mul.lo mulmid_basecase.lo toom42_mulmid.lo mulmid_n.lo mulmid.lo random.lo random2.lo pow_1.lo rootrem.lo sqrtrem.lo sizeinbase.lo get_str.lo set_str.lo compute_powtab.lo scan0.lo scan1.lo popcount.lo hamdist.lo cmp.lo zero_p.lo perfsqr.lo perfpow.lo strongfibo.lo gcd_11.lo gcd_22.lo gcd_1.lo gcd.lo gcdext_1.lo gcdext.lo gcd_subdiv_step.lo gcdext_lehmer.lo div_q.lo tdiv_qr.lo jacbase.lo jacobi_2.lo jacobi.lo get_d.lo matrix22_mul.lo matrix22_mul1_inverse_vector.lo hgcd_matrix.lo hgcd2.lo hgcd_step.lo hgcd_reduce.lo hgcd.lo hgcd_appr.lo hgcd2_jacobi.lo hgcd_jacobi.lo mullo_n.lo mullo_basecase.lo sqrlo.lo sqrlo_basecase.lo toom22_mul.lo toom32_mul.lo toom42_mul.lo toom52_mul.lo toom62_mul.lo toom33_mul.lo toom43_mul.lo toom53_mul.lo toom54_mul.lo toom63_mul.lo toom44_mul.lo toom6h_mul.lo toom6_sqr.lo toom8h_mul.lo toom8_sqr.lo toom_couple_handling.lo toom2_sqr.lo toom3_sqr.lo toom4_sqr.lo toom_eval_dgr3_pm1.lo toom_eval_dgr3_pm2.lo toom_eval_pm1.lo toom_eval_pm2.lo toom_eval_pm2exp.lo toom_eval_pm2rexp.lo toom_interpolate_5pts.lo toom_interpolate_6pts.lo toom_interpolate_7pts.lo toom_interpolate_8pts.lo toom_interpolate_12pts.lo toom_interpolate_16pts.lo invertappr.lo invert.lo binvert.lo mulmod_bnm1.lo sqrmod_bnm1.lo mulmod_bknp1.lo div_qr_1.lo div_qr_1n_pi1.lo div_qr_2.lo div_qr_2n_pi1.lo div_qr_2u_pi1.lo sbpi1_div_q.lo sbpi1_div_qr.lo sbpi1_divappr_q.lo dcpi1_div_q.lo dcpi1_div_qr.lo dcpi1_divappr_q.lo mu_div_qr.lo mu_divappr_q.lo mu_div_q.lo bdiv_q_1.lo sbpi1_bdiv_q.lo sbpi1_bdiv_qr.lo sbpi1_bdiv_r.lo dcpi1_bdiv_q.lo dcpi1_bdiv_qr.lo mu_bdiv_q.lo mu_bdiv_qr.lo bdiv_q.lo bdiv_qr.lo broot.lo brootinv.lo bsqrt.lo bsqrtinv.lo divexact.lo bdiv_dbm1c.lo redc_1.lo redc_2.lo redc_n.lo powm.lo powlo.lo sec_powm.lo sec_mul.lo sec_sqr.lo sec_div_qr.lo sec_div_r.lo sec_pi1_div_qr.lo sec_pi1_div_r.lo sec_add_1.lo sec_sub_1.lo sec_invert.lo trialdiv.lo remove.lo and_n.lo andn_n.lo nand_n.lo ior_n.lo iorn_n.lo nior_n.lo xor_n.lo xnor_n.lo copyi.lo copyd.lo zero.lo sec_tabselect.lo comb_tables.lo add_n_sub_n.lo 
+[378/897] Linking C static library Utilities/cmcurl/lib/libcmcurl.a
+[379/897] Linking C static library Utilities/cmlibuv/libcmlibuv.a
+[380/897] Linking C static library Utilities/cmlibarchive/libarchive/libcmlibarchive.a
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/bin'
+  /workspace/staging_dir/host/bin/install -c src/bison '/workspace/staging_dir/host/bin'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/lib'
+ /workspace/staging_dir/host/bin/install -c -m 644  lib/liby.a '/workspace/staging_dir/host/lib'
+ ( cd '/workspace/staging_dir/host/lib' && ranlib liby.a )
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/bin'
+ /workspace/staging_dir/host/bin/install -c src/yacc '/workspace/staging_dir/host/bin'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/aclocal'
+ /workspace/staging_dir/host/bin/install -c -m 644 m4/bison-i18n.m4 '/workspace/staging_dir/host/share/aclocal'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c++/calc++'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c++/calc++/driver.cc examples/c++/calc++/driver.hh examples/c++/calc++/scanner.ll examples/c++/calc++/calc++.cc examples/c++/calc++/parser.yy '/workspace/staging_dir/host/share/doc/bison/examples/c++/calc++'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c++'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c++/simple.yy '/workspace/staging_dir/host/share/doc/bison/examples/c++'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/bistromathic'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/bistromathic/parse.y examples/c/bistromathic/Makefile examples/c/bistromathic/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/bistromathic'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/calc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/calc/calc.y examples/c/calc/Makefile examples/c/calc/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/calc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/d/calc'
+OpenWrt-libtool: link: rm -fr  .libs/libmpn.a
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/d/calc/calc.y examples/d/calc/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/d/calc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c++/calc++'
+OpenWrt-libtool: link: ar cq .libs/libmpn.a  fib_table.o mp_bases.o add.o add_1.o add_n.o sub.o sub_1.o sub_n.o cnd_add_n.o cnd_sub_n.o cnd_swap.o neg.o com.o mul_1.o addmul_1.o submul_1.o add_err1_n.o add_err2_n.o add_err3_n.o sub_err1_n.o sub_err2_n.o sub_err3_n.o lshift.o rshift.o dive_1.o diveby3.o divis.o divrem.o divrem_1.o divrem_2.o fib2_ui.o fib2m.o mod_1.o mod_34lsub1.o mode1o.o pre_divrem_1.o pre_mod_1.o dump.o mod_1_1.o mod_1_2.o mod_1_3.o mod_1_4.o lshiftc.o mul.o mul_fft.o mul_n.o sqr.o mul_basecase.o sqr_basecase.o nussbaumer_mul.o mulmid_basecase.o toom42_mulmid.o mulmid_n.o mulmid.o random.o random2.o pow_1.o rootrem.o sqrtrem.o sizeinbase.o get_str.o set_str.o compute_powtab.o scan0.o scan1.o popcount.o hamdist.o cmp.o zero_p.o perfsqr.o perfpow.o strongfibo.o gcd_11.o gcd_22.o gcd_1.o gcd.o gcdext_1.o gcdext.o gcd_subdiv_step.o gcdext_lehmer.o div_q.o tdiv_qr.o jacbase.o jacobi_2.o jacobi.o get_d.o matrix22_mul.o matrix22_mul1_inverse_vector.o hgcd_matrix.o hgcd2.o hgcd_step.o hgcd_reduce.o hgcd.o hgcd_appr.o hgcd2_jacobi.o hgcd_jacobi.o mullo_n.o mullo_basecase.o sqrlo.o sqrlo_basecase.o toom22_mul.o toom32_mul.o toom42_mul.o toom52_mul.o toom62_mul.o toom33_mul.o toom43_mul.o toom53_mul.o toom54_mul.o toom63_mul.o toom44_mul.o toom6h_mul.o toom6_sqr.o toom8h_mul.o toom8_sqr.o toom_couple_handling.o toom2_sqr.o toom3_sqr.o toom4_sqr.o toom_eval_dgr3_pm1.o toom_eval_dgr3_pm2.o toom_eval_pm1.o toom_eval_pm2.o toom_eval_pm2exp.o toom_eval_pm2rexp.o toom_interpolate_5pts.o toom_interpolate_6pts.o toom_interpolate_7pts.o toom_interpolate_8pts.o toom_interpolate_12pts.o toom_interpolate_16pts.o invertappr.o invert.o binvert.o mulmod_bnm1.o sqrmod_bnm1.o mulmod_bknp1.o div_qr_1.o div_qr_1n_pi1.o div_qr_2.o div_qr_2n_pi1.o div_qr_2u_pi1.o sbpi1_div_q.o sbpi1_div_qr.o sbpi1_divappr_q.o dcpi1_div_q.o dcpi1_div_qr.o dcpi1_divappr_q.o mu_div_qr.o mu_divappr_q.o mu_div_q.o bdiv_q_1.o sbpi1_bdiv_q.o sbpi1_bdiv_qr.o sbpi1_bdiv_r.o dcpi1_bdiv_q.o dcpi1_bdiv_qr.o mu_bdiv_q.o mu_bdiv_qr.o bdiv_q.o bdiv_qr.o broot.o brootinv.o bsqrt.o bsqrtinv.o divexact.o bdiv_dbm1c.o redc_1.o redc_2.o redc_n.o powm.o powlo.o sec_powm.o sec_mul.o sec_sqr.o sec_div_qr.o sec_div_r.o sec_pi1_div_qr.o sec_pi1_div_r.o sec_add_1.o sec_sub_1.o sec_invert.o trialdiv.o remove.o and_n.o andn_n.o nand_n.o ior_n.o iorn_n.o nior_n.o xor_n.o xnor_n.o copyi.o copyd.o zero.o sec_tabselect.o comb_tables.o add_n_sub_n.o
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c++/calc++/README.md examples/c++/calc++/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/c++/calc++'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c++'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c++/README.md examples/c++/Makefile examples/c++/variant.yy examples/c++/variant-11.yy '/workspace/staging_dir/host/share/doc/bison/examples/c++'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/d'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/d/README.md '/workspace/staging_dir/host/share/doc/bison/examples/d'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison'
+ /workspace/staging_dir/host/bin/install -c -m 644 AUTHORS COPYING NEWS README THANKS TODO '/workspace/staging_dir/host/share/doc/bison'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples'
+OpenWrt-libtool: link: ranlib .libs/libmpn.a
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/README.md '/workspace/staging_dir/host/share/doc/bison/examples'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/glr'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/glr/c++-types.y examples/c/glr/Makefile examples/c/glr/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/glr'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/java'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/java/README.md '/workspace/staging_dir/host/share/doc/bison/examples/java'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/java/calc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/java/calc/Calc.y examples/java/calc/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/java/calc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/java/simple'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/java/simple/Calc.y examples/java/simple/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/java/simple'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/lexcalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/lexcalc/parse.y examples/c/lexcalc/scan.l examples/c/lexcalc/Makefile examples/c/lexcalc/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/lexcalc'
+OpenWrt-libtool: link: ( cd ".libs" && rm -f "libmpn.la" && ln -s "../libmpn.la" "libmpn.la" )
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/bison/m4sugar'
+make[6]: Leaving directory '/workspace/build_dir/host/gmp-6.3.0/mpn'
+Making all in mpz
+make[6]: Entering directory '/workspace/build_dir/host/gmp-6.3.0/mpz'
+ /workspace/staging_dir/host/bin/install -c -m 644 data/m4sugar/foreach.m4 data/m4sugar/m4sugar.m4 '/workspace/staging_dir/host/share/bison/m4sugar'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/mfcalc'
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o 2fac_ui.lo 2fac_ui.c
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/mfcalc/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/bison'
+ /workspace/staging_dir/host/bin/install -c -m 644 data/README.md data/bison-default.css '/workspace/staging_dir/host/share/bison'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/pushcalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/pushcalc/calc.y examples/c/pushcalc/Makefile examples/c/pushcalc/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/pushcalc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/reccalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/reccalc/parse.y examples/c/reccalc/scan.l examples/c/reccalc/Makefile examples/c/reccalc/README.md '/workspace/staging_dir/host/share/doc/bison/examples/c/reccalc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/rpcalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/rpcalc/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/c/rpcalc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/d/simple'
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c 2fac_ui.c -o 2fac_ui.o
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/d/simple/calc.y examples/d/simple/Makefile '/workspace/staging_dir/host/share/doc/bison/examples/d/simple'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/bison/skeletons'
+ /workspace/staging_dir/host/bin/install -c -m 644 data/skeletons/bison.m4 data/skeletons/c++-skel.m4 data/skeletons/c++.m4 data/skeletons/c-like.m4 data/skeletons/c-skel.m4 data/skeletons/c.m4 data/skeletons/glr.c data/skeletons/glr.cc data/skeletons/glr2.cc data/skeletons/java-skel.m4 data/skeletons/java.m4 data/skeletons/lalr1.cc data/skeletons/lalr1.java data/skeletons/location.cc data/skeletons/stack.hh data/skeletons/traceon.m4 data/skeletons/variant.hh data/skeletons/yacc.c data/skeletons/d-skel.m4 data/skeletons/d.m4 data/skeletons/lalr1.d '/workspace/staging_dir/host/share/bison/skeletons'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/bison/xslt'
+ /workspace/staging_dir/host/bin/install -c -m 644 data/xslt/bison.xsl data/xslt/xml2dot.xsl data/xslt/xml2text.xsl data/xslt/xml2xhtml.xsl '/workspace/staging_dir/host/share/bison/xslt'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/info'
+ /workspace/staging_dir/host/bin/install -c -m 644 ./doc/bison.info '/workspace/staging_dir/host/share/info'
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o add.lo add.c
+ install-info --info-dir='/workspace/staging_dir/host/share/info' '/workspace/staging_dir/host/share/info/bison.info'
+install-info: warning: no info dir entry in `/workspace/staging_dir/host/share/info/bison.info'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/man/man1'
+ /workspace/staging_dir/host/bin/install -c -m 644 ./doc/bison.1 doc/yacc.1 '/workspace/staging_dir/host/share/man/man1'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/mfcalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/mfcalc/calc.h examples/c/mfcalc/mfcalc.y '/workspace/staging_dir/host/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/mkdir -p '/workspace/staging_dir/host/share/doc/bison/examples/c/rpcalc'
+ /workspace/staging_dir/host/bin/install -c -m 644 examples/c/rpcalc/rpcalc.y '/workspace/staging_dir/host/share/doc/bison/examples/c/rpcalc'
+make[7]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+make[6]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+make[5]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+make[4]: Leaving directory '/workspace/build_dir/host/bison-3.8.2'
+install -m0755 ./scripts/yacc /workspace/staging_dir/host/bin/yacc
+mkdir -p /workspace/staging_dir/host/stamp
+touch /workspace/build_dir/host/bison-3.8.2/.built
+touch /workspace/staging_dir/host/stamp/.bison_installed 
+make[3]: Leaving directory '/workspace/tools/bison'
+time: tools/bison/compile#8.10#0.76#39.07
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c add.c -o add.o
+make[3]: Entering directory '/workspace/tools/bc'
+[381/897] Building CXX object Utilities/cmjsoncpp/CMakeFiles/cmjsoncpp.dir/src/lib_json/json_reader.cpp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o add_ui.lo add_ui.c
+[382/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmCommandArgumentParser.cxx.o
+mkdir -p /workspace/dl
+SHELL= flock /workspace/tmp/.bc-1.08.1.tar.xz.flock -c '  	/workspace/scripts/download.pl "/workspace/dl" "bc-1.08.1.tar.xz" "515430115b3334c636317503460a0950dff79940aa3259ce2c1aa67c2881d023" "" "@GNU/bc"    '
+[383/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmCommandArgumentLexer.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c add_ui.c -o add_ui.o
++ curl -f --connect-timeout 20 --retry 5 --location https://ftpmirror.gnu.org/bc/bc-1.08.1.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o abs.lo abs.c
+[384/897] Building CXX object Utilities/cmjsoncpp/CMakeFiles/cmjsoncpp.dir/src/lib_json/json_value.cpp.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c abs.c -o abs.o
+[385/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmDependsJavaLexer.cxx.o
+[386/897] Linking CXX static library Utilities/cmjsoncpp/libcmjsoncpp.a
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o aorsmul.lo aorsmul.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c aorsmul.c -o aorsmul.o
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o aorsmul_i.lo aorsmul_i.c
+[387/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmFortranParser.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c aorsmul_i.c -o aorsmul_i.o
+[388/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmExprParser.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o and.lo and.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c and.c -o and.o
+100  322k  100  322k    0     0   291k      0  0:00:01  0:00:01 --:--:--  539k
+. /workspace/include/shell.sh; xzcat /workspace/dl/bc-1.08.1.tar.xz | tar -C /workspace/build_dir/host/bc-1.08.1/.. -xf -
+[389/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmFortranLexer.cxx.o
+[ ! -d ./src/ ] || cp -fpR ./src/* /workspace/build_dir/host/bc-1.08.1
+
+Applying /workspace/tools/bc/patches/001-no_doc.patch using plaintext: 
+patching file Makefile.am
+patching file Makefile.in
+
+Applying /workspace/tools/bc/patches/002-fix-libmath.patch using plaintext: 
+patching file configure
+touch /workspace/build_dir/host/bc-1.08.1/.prepared8b5c7d4a70a86ba0caa2ffc4495c5052_6664517399ebbbc92a37c5bb081b5c53
+(cd /workspace/build_dir/host/bc-1.08.1; rm -f aclocal.m4; if [ -f ./configure.ac ] || [ -f ./configure.in ]; then [ -d ./autom4te.cache ] && rm -rf ./autom4te.cache; [ -e ./config.rpath ] || ln -s /workspace/scripts/config.rpath ./config.rpath; touch NEWS AUTHORS COPYING ABOUT-NLS ChangeLog; AUTOM4TE=/workspace/staging_dir/host/bin/autom4te AUTOCONF=/workspace/staging_dir/host/bin/autoconf AUTOMAKE=/workspace/staging_dir/host/bin/automake ACLOCAL=/workspace/staging_dir/host/bin/aclocal AUTOHEADER=/workspace/staging_dir/host/bin/autoheader LIBTOOLIZE=/workspace/staging_dir/host/bin/libtoolize LIBTOOL=/workspace/staging_dir/host/bin/libtool M4=/workspace/staging_dir/host/bin/m4 AUTOPOINT=true GTKDOCIZE=true LIBTOOLIZE='/workspace/staging_dir/host/bin/libtoolize --install' /workspace/staging_dir/host/bin/autoreconf -v -f -i -B /workspace/staging_dir/host/share/aclocal -I m4 -I . . || true; fi; );
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o array_init.lo array_init.c
+[390/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmDependsJavaParser.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c array_init.c -o array_init.o
+[391/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmAffinity.cxx.o
+autoreconf: export WARNINGS=
+autoreconf: Entering directory '.'
+autoreconf: configure.ac: not using Gettext
+[392/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmExprLexer.cxx.o
+[393/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/LexerParser/cmGccDepfileLexer.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bin_ui.lo bin_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bin_ui.c -o bin_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o bin_uiui.lo bin_uiui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c bin_uiui.c -o bin_uiui.o
+[394/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBase32.cxx.o
+[395/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsLinker.cxx.o
+[396/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsLinuxELFGetRuntimeDependenciesTool.cxx.o
+autoreconf: running: /workspace/staging_dir/host/bin/aclocal -I m4 -I . --force 
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_q.lo cdiv_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_q.c -o cdiv_q.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_q_ui.lo cdiv_q_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_q_ui.c -o cdiv_q_ui.o
+[397/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsMacOSMachOGetRuntimeDependenciesTool.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_qr.lo cdiv_qr.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_qr.c -o cdiv_qr.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_qr_ui.lo cdiv_qr_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_qr_ui.c -o cdiv_qr_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_r.lo cdiv_r.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_r.c -o cdiv_r.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_r_ui.lo cdiv_r_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_r_ui.c -o cdiv_r_ui.o
+[398/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmArchiveWrite.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cdiv_ui.lo cdiv_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cdiv_ui.c -o cdiv_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cfdiv_q_2exp.lo cfdiv_q_2exp.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cfdiv_q_2exp.c -o cfdiv_q_2exp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cfdiv_r_2exp.lo cfdiv_r_2exp.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cfdiv_r_2exp.c -o cfdiv_r_2exp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o clear.lo clear.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c clear.c -o clear.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o clears.lo clears.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c clears.c -o clears.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o clrbit.lo clrbit.c
+[399/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsMacOSMachOOToolGetRuntimeDependenciesTool.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c clrbit.c -o clrbit.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmp.lo cmp.c
+[400/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsMacOSMachOLinker.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmp.c -o cmp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmp_d.lo cmp_d.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmp_d.c -o cmp_d.o
+[401/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsLinuxELFObjdumpGetRuntimeDependenciesTool.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmp_si.lo cmp_si.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmp_si.c -o cmp_si.o
+[402/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmArgumentParser.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmp_ui.lo cmp_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmp_ui.c -o cmp_ui.o
+[403/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsLinuxELFLinker.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmpabs.lo cmpabs.c
+[404/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsWindowsPEGetRuntimeDependenciesTool.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmpabs.c -o cmpabs.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmpabs_d.lo cmpabs_d.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmpabs_d.c -o cmpabs_d.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cmpabs_ui.lo cmpabs_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cmpabs_ui.c -o cmpabs_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o com.lo com.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c com.c -o com.o
+[405/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsWindowsPEDumpbinGetRuntimeDependenciesTool.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o combit.lo combit.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c combit.c -o combit.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cong.lo cong.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cong.c -o cong.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cong_2exp.lo cong_2exp.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cong_2exp.c -o cong_2exp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o cong_ui.lo cong_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c cong_ui.c -o cong_ui.o
+[406/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsWindowsPELinker.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divexact.lo divexact.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divexact.c -o divexact.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divegcd.lo divegcd.c
+[407/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBinUtilsWindowsPEObjdumpGetRuntimeDependenciesTool.cxx.o
+[408/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCLocaleEnvironmentScope.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divegcd.c -o divegcd.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o dive_ui.lo dive_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c dive_ui.c -o dive_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divis.lo divis.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divis.c -o divis.o
+[409/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCMakePath.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divis_ui.lo divis_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divis_ui.c -o divis_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o divis_2exp.lo divis_2exp.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c divis_2exp.c -o divis_2exp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o dump.lo dump.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c dump.c -o dump.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o export.lo export.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c export.c -o export.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fac_ui.lo fac_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fac_ui.c -o fac_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_q.lo fdiv_q.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_q.c -o fdiv_q.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_q_ui.lo fdiv_q_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_q_ui.c -o fdiv_q_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_qr.lo fdiv_qr.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_qr.c -o fdiv_qr.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_qr_ui.lo fdiv_qr_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_qr_ui.c -o fdiv_qr_ui.o
+[410/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCMakePresetsErrors.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_r.lo fdiv_r.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_r.c -o fdiv_r.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_r_ui.lo fdiv_r_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_r_ui.c -o fdiv_r_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fdiv_ui.lo fdiv_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fdiv_ui.c -o fdiv_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fib_ui.lo fib_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fib_ui.c -o fib_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fib2_ui.lo fib2_ui.c
+[411/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCacheManager.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fib2_ui.c -o fib2_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_sint.lo fits_sint.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_sint.c -o fits_sint.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_slong.lo fits_slong.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_slong.c -o fits_slong.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_sshort.lo fits_sshort.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_sshort.c -o fits_sshort.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_uint.lo fits_uint.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_uint.c -o fits_uint.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_ulong.lo fits_ulong.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_ulong.c -o fits_ulong.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o fits_ushort.lo fits_ushort.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c fits_ushort.c -o fits_ushort.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o gcd.lo gcd.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c gcd.c -o gcd.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o gcd_ui.lo gcd_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c gcd_ui.c -o gcd_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o gcdext.lo gcdext.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c gcdext.c -o gcdext.o
+[412/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCMakePresetsGraphReadJSONBuildPresets.cxx.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o get_d.lo get_d.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c get_d.c -o get_d.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o get_d_2exp.lo get_d_2exp.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c get_d_2exp.c -o get_d_2exp.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o get_si.lo get_si.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c get_si.c -o get_si.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o get_str.lo get_str.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c get_str.c -o get_str.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o get_ui.lo get_ui.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c get_ui.c -o get_ui.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o getlimbn.lo getlimbn.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c getlimbn.c -o getlimbn.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o hamdist.lo hamdist.c
+[413/897] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBuildDatabase.cxx.o
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c hamdist.c -o hamdist.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o import.lo import.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c import.c -o import.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o init.lo init.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c init.c -o init.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o init2.lo init2.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c init2.c -o init2.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o inits.lo inits.c
+OpenWrt-libtool: compile:  /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I.. -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include -O2 -I/workspace/staging_dir/host/include -c inits.c -o inits.o
+/usr/bin/env bash ../libtool  --tag=CC   --mode=compile /workspace/staging_dir/host/bin/gcc -DHAVE_CONFIG_H -I. -I..  -D__GMP_WITHIN_GMP -I.. -I/workspace/staging_dir/host/include  -O2 -I/workspace/staging_dir/host/include -c -o inp_raw.lo inp_raw.c
