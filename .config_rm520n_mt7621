@@ -1,0 +1,42 @@
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_PROFILE="DEVICE_generic"
+CONFIG_TARGET_PROFILE_GENERIC=y
+
+# ---------- USB and basic serial ---------
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_kmod-usb-serial=y
+CONFIG_PACKAGE_kmod-usb-serial-option=y
+CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-mbim=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=y
+
+# ---------- Qualcomm MHI / PCIe 5G ---------
+CONFIG_PACKAGE_kmod-mhi-bus=y
+CONFIG_PACKAGE_kmod-mhi-pci-generic=y
+CONFIG_PACKAGE_kmod-mhi-net=y
+CONFIG_PACKAGE_kmod-mhi-wwan-mbim=y
+CONFIG_PACKAGE_kmod-mhi-wwan-ctrl=y
+CONFIG_PACKAGE_kmod-qrtr=y
+CONFIG_PACKAGE_kmod-qrtr-mhi=y
+
+# ---------- User-space tools ----------
+CONFIG_PACKAGE_uqmi=y
+CONFIG_PACKAGE_umbim=y
+CONFIG_PACKAGE_qmicli=y
+CONFIG_PACKAGE_libqmi=y
+CONFIG_PACKAGE_mbimcli=y
+CONFIG_PACKAGE_libmbim=y
+CONFIG_PACKAGE_modemmanager=y
+CONFIG_PACKAGE_usbutils=y
+CONFIG_PACKAGE_pciutils=y
+
+# ---------- LuCI and helpers ----------
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-proto-qmi=y
+CONFIG_PACKAGE_luci-proto-mbim=y
+CONFIG_PACKAGE_luci-proto-modemmanager=y
+
+# ---------- Extras ----------
+CONFIG_PACKAGE_kmod-fs-ext4=y
